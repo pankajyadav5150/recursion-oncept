@@ -9,6 +9,7 @@ void subset(string ans,string str){
     char ch=str[0];
     
         subset(ans+ch,str.substr(1));
+        subset(ans+to_string(ch+0),str.substr(1));
         subset(ans,str.substr(1));
 }
 int main(){
