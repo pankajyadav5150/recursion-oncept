@@ -28,7 +28,6 @@ void mergeInPlace(int arr[],int s,int m,int e){
         k++;
     }
 
-  
     for (int k = 0; k < sizeof(result)/sizeof(result[0]); k++) {
         arr[s + k] = result[k];
     }
